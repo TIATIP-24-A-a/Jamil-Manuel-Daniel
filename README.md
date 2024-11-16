@@ -3,8 +3,4 @@ Programmieren Grundlagen
 
 help
 
-no help needed
-
-test
-
-test 2
+maybe no help needed
