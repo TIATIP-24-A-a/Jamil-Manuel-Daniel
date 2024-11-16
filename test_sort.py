@@ -1,10 +1,6 @@
 import unittest
 from sort import sort
 
-
-
-
-
 class MyTestCase(unittest.TestCase):
     def test_something(self):
         # using unittest
