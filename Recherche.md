@@ -8,11 +8,6 @@ Mögliche Lösungen:
 [Zahlen].sort()
 sorted([Zahlen])
 
-Variante 1:
-
-
-Variante 2:
-
 Funktionsweise:
 flowchart TD
     A[input numbers] -->|write in list| B(write numbers in list)
@@ -22,3 +17,7 @@ flowchart TD
     D -->|value of new number|E
     E -->|get next number| C
     E -->|wirte number| F[list]
+
+Quellen:
+https://docs.python.org/3/howto/sorting.html
+https://www.w3schools.com/python/ref_list_sort.asp
