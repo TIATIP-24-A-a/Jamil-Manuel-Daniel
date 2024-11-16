@@ -1,5 +1,5 @@
 # Eine Liste von Zahlen
-zahlen = [34, 1, 56, 23, 89, 12, 7]
+zahlen: list[int] = [34, 1, 56, 23, 89, 12, 7, 13, 99, 0]
 
 # Sortiere die Liste in aufsteigender Reihenfolge
 zahlen.sort()
