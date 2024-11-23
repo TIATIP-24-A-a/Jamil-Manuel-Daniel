@@ -1,5 +1,5 @@
-from sort import sort
-from sort import insertionsort
+from sortFunction import sort
+from sortFunction import insertionsort
 
 #Eingabe von Zahlen durch User
 print("Zahlen mit Komma getrennt eingeben:")

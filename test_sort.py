@@ -1,5 +1,5 @@
 import unittest
-from sort import sort
+from sortFunction import sort
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
