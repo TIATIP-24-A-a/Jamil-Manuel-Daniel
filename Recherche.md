@@ -4,19 +4,22 @@ Sortieren von Zahlen aus einer Liste
 Gewünschtes Resultat:
 Zahlen in aufsteigender Reihenfolge ausgeben
 
-Mögliche Lösungen:
-[Zahlen].sort()
-sorted([Zahlen])
-
 Funktionsweise:
 flowchart TD
-    A[input numbers] -->|write in list| B(write numbers in list)
-    B --> C{Pick N Number}
-    C -->|interieren| D{value of number and position in list}
-    D -->|first number| E{write number in new sorted list at position}
-    D -->|value of new number|E
-    E -->|get next number| C
-    E -->|wirte number| F[list]
+    A[input array] --> B{len array}
+    B -->|if n<=1|Z[return array]
+    B --> C[for i in 1-len array]
+    C --> D[key = array i
+               j = i-1]
+    D --> E[while j >= 0
+            key < array j]
+    E --> F[array j +1 = array j 
+            j-=1]
+    F --> G[array j+1=key]
+    G -->|repeat til i=n|C
+    G --> Z
+
+![Folwchart insertionsort.png](Folwchart%20insertionsort.png)
 
 Quellen:
 https://docs.python.org/3/howto/sorting.html
