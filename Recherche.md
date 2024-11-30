@@ -1,10 +1,20 @@
-Problem: 
-Sortieren von Zahlen aus einer Liste
+# Sortierfunktion Projekt
 
-Gewünschtes Resultat:
-Zahlen in aufsteigender Reihenfolge ausgeben
+## Problemstellung
 
-Funktionsweise:
+Das Ziel dieses Projekts ist das Sortieren von Zahlen aus einer Liste.
+
+## Gewünschtes Resultat
+
+Die Zahlen sollen in **aufsteigender Reihenfolge** ausgegeben werden.
+
+## Funktionsweise
+
+### Ablaufdiagramm (Flowchart)
+
+Das folgende Ablaufdiagramm visualisiert die Funktionsweise des verwendeten Sortieralgorithmus (Insertion Sort):
+
+```mermaid
 flowchart TD
     A[input array] --> B{len array}
     B -->|if n<=1|Z[return array]
@@ -18,9 +28,3 @@ flowchart TD
     F --> G[array j+1=key]
     G -->|repeat til i=n|C
     G --> Z
-
-![Folwchart insertionsort.png](Folwchart%20insertionsort.png)
-
-Quellen:
-https://docs.python.org/3/howto/sorting.html
-https://www.w3schools.com/python/ref_list_sort.asp
