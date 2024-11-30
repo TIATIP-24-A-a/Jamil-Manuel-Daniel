@@ -28,4 +28,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest  # Führt pytest aus, um Tests zu starten
+        pytest test_insertionsort.py
