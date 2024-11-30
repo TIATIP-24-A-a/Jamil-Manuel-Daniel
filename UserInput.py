@@ -5,7 +5,7 @@ from sortFunction import insertionsort
 #print("Zahlen mit Komma getrennt eingeben:")
 #s = input()
 #zahlen = [int(x) for x in s.split(',') if x != '']
-zahlen = [7,1,3,5,2,6]
+zahlen = [7,1,3,5,2,6] # Zahlen zum sortieren
 
 # Sortiere die Liste in aufsteigender Reihenfolge
 sortierteZahlen = sort(zahlen)
