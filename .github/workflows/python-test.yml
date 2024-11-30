@@ -24,8 +24,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r  requirements.md # Installiert Abhängigkeiten (aus requirements.md)
+        pip install -r  requirements.txt # Installiert Abhängigkeiten (aus requirements.txt)
 
     - name: Run tests
       run: |
-        pytest  # Führt pytest aus, um Tests zu starten
+        pytest test_insertionsort.py
