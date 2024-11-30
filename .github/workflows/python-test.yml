@@ -28,4 +28,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest test_insertionsort.py
+        python -m unittest discover  # Sucht automatisch nach allen Testdateien (z.B. test_*.py) und führt sie aus
