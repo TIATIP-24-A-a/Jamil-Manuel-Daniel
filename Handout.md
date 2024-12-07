@@ -34,6 +34,8 @@ Sortieralgorithmen sind wichtige Bestandteile der Informatik. Sie optimieren Dat
   - Effizient für kleine Datensätze.
 - **Nachteile:**
   - Langsam bei großen Datensätzen.
+- **Flowchart:**
+![flowchartInsertionsort.png](flowchartInsertionsort.png)
 
 ---
 
